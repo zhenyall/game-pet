@@ -4,4 +4,4 @@ Connect the gem file to your pet
 
 - To run use:
 
-$ main.rb
+$ ruby main.rb
