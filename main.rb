@@ -7,7 +7,7 @@ class Main
   COMMANDS = %w[play feed bathing walk]
   def start
     init_pet
-    html = PetHtml.new(@pet)
+    html = HTMLPet.new(@pet)
     html.open_html
   end
 
