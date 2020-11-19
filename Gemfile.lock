@@ -1,0 +1,19 @@
+PATH
+	remote:
+	specs:
+		pet-gem (0.0.1)
+
+GEM
+	remote: https://github.com/zhenyall/Pet-gem
+	branch: master
+
+PLATFORM
+	ruby
+
+DEPENDENCIES
+	game-pet!
+	erb
+	(0.0.1)
+
+BUNDLED WITH
+	2.1.4
