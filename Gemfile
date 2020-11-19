@@ -1,0 +1,1 @@
+gem 'pet-gem', '~> 0.0.1', 'git: https://github.com/zhenyall/Pet-gem/tree/master'
