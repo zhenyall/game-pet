@@ -1,12 +1,12 @@
 require 'rubygems'
 
 require_relative 'pet'
-require_relative 'pet-gem'
+require_relative 'pet_gem'
 
 class Main
   COMMANDS = %w[play feed bathing walk]
   def start
-    init_pet
+    initialize @pet
     html = HTMLPet.new(@pet)
     html.open_html
   end
